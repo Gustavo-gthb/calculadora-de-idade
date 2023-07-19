@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:ital,wght@0,700;1,400;1.800&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  left: 25%;
+  bottom: 80%;
+  background-color: #f3f3f3;
+  overflow-y: scroll;
+}
+
+/* borda principal */
+.border {
+  display: inline-block;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #fff;
+  height: 550px;
+  width: 700px;
+  border-radius: 20px 20px 200px 20px;
+}
+
+/* lista Day, Month e Year que fica acima do number */
+.lista {
+  display: flex;
+  position: relative;
+  list-style: none;
+  color: #7c7c7c;
+  font-weight: bolder;
+  font-size: small;
+  letter-spacing: 5px;
+  gap: 115px;
+  height: 8px;
+  top: 20px;
+}
+
+.year {
+  position: relative;
+  right: 25px;
+}
+
+.error-label {
+  color: red;
+}
+
+form {
+  display: flex;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  height: 40px;
+  width: 100px;
+  border-color: #9995a4;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#num01 {
+    position: relative;
+   top: 20px;
+   left: 42px;
+}
+
+#num02 {
+    position: relative;
+   top: 20px;
+   left: 80px;
+}
+
+#num03 {
+    position: relative;
+   top: 20px;
+   left: 122px;
+}
+
+
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    position: relative;
+    gap: 200px;
+    top: 20px;
+    left:50px
+  }
+
+  .error {
+    border-color: red;
+  }
+  
+  .show-error-message {
+    display: block;
+  }
+
+  #error-num01 {
+    position: relative;
+    left: 40px;
+  }
+
+  #error-num02 {
+    position: relative;
+    left: 78px;
+  }
+
+  #error-num03 {
+    position: relative;
+    left: 120px;
+  }
+
+/* Configuração responsável por deixar os componentes em vermelho */
+
+/* .erro-principal {
+  color: red;
+} */
+
+/* Inicio do Posicionamento da mensagem de erro, que aparece quando a caixa de número está vazia */
+.nav-erro {
+  display: flex;
+  position: relative;
+  list-style: none;
+  font-size: 13px;
+}
+
+#erro1 {
+  left: -6px;
+}
+
+#erro2 {
+  left: 30px;
+}
+
+#erro3 {
+  right: -68px;
+}
+
+input::-webkit-input-placeholder {
+  position: relative;
+  font-size: 20px;
+  left: 10px;
+}
+
+/* borda em linha reta, a que fica ao lado do botão. */
+.border-03 {
+  position: absolute; /* posição absoluta */
+  border: 1px solid #9995a4; /* borda */
+  width: 540px; /* largura */
+  top: 33%; /* distância do topo */
+  right: 16%; /* distância da direita */
+} 
+
+/* posicionamento do Year, Month e Days */
+.resultado {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  position: relative; 
+  width: 100%;
+  
+ 
+}
+
+/* posicionamento do resultado */
+.resultado-color {
+  position: relative;
+  color: #844ef8;
+  font-size: 40px;
+  height: 30px;
+  bottom: 290px;
+  left: 20px;
+}
+
+/* ajustes da fonte do Year, Month e Days */
+.nav-ajustes {
+  margin: 0;
+  max-width: 100px;
+  width: 100px;
+  font-weight: 900;
+  font-size: 100px;
+  letter-spacing: -10px;
+  margin-left: 100px;
+}
+
+.wrapper {
+   
+
+}
+
+#btn {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: black;
+}
+ 
+.btn {
+  position: relative;
+  display: flex;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  top: 42px;
+  left: 550px;
+}

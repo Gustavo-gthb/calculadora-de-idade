@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="border">
+
+    <nav>
+    <!-- <ul class="lista">
+        <li><b>DAY</b></li>
+        <li>MONTH</li>
+        <li class="year">YEAR</li>
+    </ul> -->
+
+    <ul class="lista" id="error">
+     <li id="label-day" >DAY </li>
+     <li id="label-month" >MONTH</li>
+     <li id="label-year" class="year">YEAR</li>
+    </ul> 
+      <form>
+        <div class="input-wrapper">
+          <input placeholder="DD" min="0" max="31" type="number" id="num01" class="number" required>
+          <div class="error-message" id="error-num01"></div>
+        </div>
+        <div class="input-wrapper">
+          <input placeholder="MM" min="0" max="12" type="number" id="num02" class="number" required>
+          <div class="error-message" id="error-num02"></div>
+        </div>
+        <div class="input-wrapper">
+          <input placeholder="YYYY" min="0" type="number" id="num03" class="number" required>
+          <div class="error-message" id="error-num03"></div>
+        </div>
+      </form>
+
+     </nav> 
+      
+
+    <div class="border-02"></div>
+
+    <div class="border-03"></div>
+    
+    <div class="btn">
+   <button id="btn">
+    <img src="assets/images/icon-arrow.svg" alt="" srcset="">
+   </button>
+   </div>
+
+   <div class="wrapper">
+     <div  class="resultado">
+        <h1 class="nav-ajustes">years</h1>
+    </div>
+    <div class="resultado">
+        <h1 class="nav-ajustes">months</h1>
+    </div>
+    <div class="resultado">
+        <h1 class="nav-ajustes">days</h1>
+    </div>
+    </div>
+
+    <div class="resultado-color">
+        <h1 id="resultado1"></h1>
+    </div>
+    <div class="resultado-color">
+        <h1 id="resultado2"></h1>
+    </div>
+    <div class="resultado-color">
+        <h1 id="resultado3"></h1>
+    </div>
+
+  </div> 
+</body>
+</html>
